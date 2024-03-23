@@ -11,8 +11,11 @@ for i in range(N):
                 sum_lst.append(sum)
 sum_lst = list(set(sum_lst))
 
+# answer = 0
 last_lst = []
 for i in range(len(sum_lst)):
     if sum_lst[i] <= M:
+ #         answer = sum_lst[i]
+ # print(answer) <- 이렇게 하면 왜 틀렸다고 나오는지 도통 이해가 안 감 언젠간 이해가 가겠지?
         last_lst.append(sum_lst[i])
 print(max(last_lst))
