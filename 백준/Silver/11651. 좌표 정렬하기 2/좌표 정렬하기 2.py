@@ -1,3 +1,4 @@
+# sys 쓰니까 훠얼씬 빠르다. 웬만해서는 sys 쓰자.
 import sys
 input = sys.stdin.readline
 N = int(input())
