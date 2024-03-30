@@ -24,3 +24,5 @@ for i in lst:
         print(0)
     else:
         print(1)
+
+# 미친 개뿌듯하다 이진탐색 내 힘으로 씀 ~~~~ 하하하하하하
