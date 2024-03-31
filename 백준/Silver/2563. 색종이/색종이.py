@@ -16,3 +16,4 @@ count = 0
 for row in table:
     count += row.count(1)
 print(count)
+# ㄹㅇ 좀 개뿌듯함. 이제 2차원배열 문제 감 잡은듯 ? 초딩 올림피아드 문제 맞춰놓고 뿌듯해하는 수준 ㅋ 하지만 뿌듯한걸 어째요ㅜ
