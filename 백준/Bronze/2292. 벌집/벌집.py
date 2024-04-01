@@ -8,3 +8,5 @@ while True:
     num += 6 * i
     i += 1
 print(i)
+
+# 지렸다 진ㅉㅏ 개잘푼다 하하하하하
