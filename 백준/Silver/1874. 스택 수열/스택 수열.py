@@ -1,4 +1,7 @@
+import sys
 from collections import deque
+input = sys.stdin.readline
+
 n = int(input())
 front_lst = []
 back_lst = []
@@ -25,3 +28,4 @@ else:
         print(i)
 
 # 미쳣다 내가 이걸 풀었다고?
+# sys 추가함
