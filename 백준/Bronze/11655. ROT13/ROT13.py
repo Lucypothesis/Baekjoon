@@ -4,8 +4,7 @@ upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 def index_finder(case):
     rot13 = case.index(S[i]) + 13
-    if rot13 >= 26:
-        rot13 %= 13
+    rot13 %= 26
     return case[rot13]
 
 for i in range(len(S)):
